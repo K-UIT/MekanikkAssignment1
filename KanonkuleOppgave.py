@@ -8,7 +8,7 @@ def simulate(v0, valg):
     m = 75  # Masse i kg
     g = 9.81  # Gravitasjonell akselerasjon i m/s^2
     D = 1 # Diameter i m
-    b = 1.6*10**(-4)*D  # Lineær dragkoeffisient
+    b = 1.6*10**(-6)*D  # Lineær dragkoeffisient
     c = 0.25*D**2  # Kvadratiske dragkoeffisienten
     tmax = 100  # Maks tid i sekunder
     dt = 0.01  # Tids steg hver runthrough
